@@ -1,0 +1,8 @@
+tests
+webpack.*.js
+babel.config.js
+*.tgz
+.*
+renovate.json
+mochapack.opts
+Makefile

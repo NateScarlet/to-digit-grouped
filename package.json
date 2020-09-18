@@ -1,0 +1,54 @@
+{
+  "name": "to-digit-grouped",
+  "version": "0.1.0",
+  "description": "Use thousand separator (or custom text) to group digits in a string.",
+  "main": "./dist/index.node.js",
+  "browser": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "mochapack",
+    "build": "webpack --mode production --config webpack.prod.js",
+    "prepare": "make dist",
+    "prepublishOnly": "npm run test"
+  },
+  "keywords": [
+    "string",
+    "format",
+    "thousand separator",
+    "decimal group"
+  ],
+  "author": {
+    "name": "NateScarlet",
+    "email": "NateScarlet@Gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NateScarlet/to-digit-grouped.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "7.11.6",
+    "@babel/plugin-transform-runtime": "7.11.5",
+    "@babel/preset-env": "7.11.5",
+    "@babel/register": "7.11.5",
+    "@types/chai": "4.2.12",
+    "@types/mocha": "7.0.2",
+    "@types/webpack-env": "1.15.3",
+    "@typescript-eslint/eslint-plugin": "2.34.0",
+    "@typescript-eslint/parser": "2.34.0",
+    "babel-loader": "8.1.0",
+    "chai": "4.2.0",
+    "copy-webpack-plugin": "5.1.2",
+    "core-js": "3.6.5",
+    "eslint": "6.8.0",
+    "eslint-config-prettier": "6.11.0",
+    "mocha": "7.2.0",
+    "mochapack": "1.1.15",
+    "prettier": "1.19.1",
+    "ts-loader": "6.2.2",
+    "typescript": "3.9.7",
+    "webpack": "4.44.2",
+    "webpack-chain": "6.5.1",
+    "webpack-cli": "3.3.12"
+  }
+}
