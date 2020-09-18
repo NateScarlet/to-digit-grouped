@@ -1,0 +1,7 @@
+tests
+webpack.*.js
+babel.config.js
+*.tgz
+.*
+renovate.json
+Makefile
