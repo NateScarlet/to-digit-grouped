@@ -1,6 +1,6 @@
 {
   "name": "to-digit-grouped",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use thousand separator (or custom text) to group digits in a string.",
   "main": "./dist/index.node.js",
   "browser": "./dist/index.js",
