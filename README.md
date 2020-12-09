@@ -15,10 +15,10 @@ toDigitGrouped('value: 1234567890.1234567890 unit');
 // "value: 1 234 567 890.1234567890 unit"
 
 toDigitGrouped('1234 and 5678');
-// 1 234 and 4578
+// 1 234 and 5678
 
 toDigitGrouped('1234 and 5678', { multiple: true });
-// 1 234 and 4 578
+// 1 234 and 5 678
 
 toDigitGrouped('1234567890.1234567890');
 // "1 234 567 890.1234567890"
