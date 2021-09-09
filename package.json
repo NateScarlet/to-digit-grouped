@@ -41,7 +41,7 @@
     "@typescript-eslint/parser": "4.31.0",
     "babel-loader": "8.2.2",
     "chai": "4.3.4",
-    "core-js": "3.17.2",
+    "core-js": "3.17.3",
     "eslint": "7.32.0",
     "eslint-config-prettier": "6.15.0",
     "mocha": "8.4.0",
